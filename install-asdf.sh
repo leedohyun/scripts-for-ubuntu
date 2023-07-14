@@ -1,4 +1,4 @@
-#!/usr/bin/zsh
+#!/bin/zsh
 
 sudo apt install curl git
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.12.0
@@ -16,3 +16,5 @@ asdf global java latest:adoptopenjdk-11
 
 # install to spring boot plugin
 asdf plugin-add spring-boot https://github.com/joschi/asdf-spring-boot
+asdf install spring-boot 2.7.13
+asdf global spring-boot 2.7.13
